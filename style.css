@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+   font-size: 20px;
+   font-weight: 200;
+   width: 300px;
+   display: block;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+section nav{
+    cursor: pointer;
+    padding-bottom: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+nav ul li{
+    margin: 15px 0;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.4s;
+    padding: 10px;
+    gap: 0%;
+}
+
+nav a{
+   margin: 25px;
+   font-size: 18px;
+   color: #fff;
+}
+
+nav .main_1{
+    transition: 0.4s;
+    display: inline-block;
+}
+
+section nav ul li a:hover{
+    color: rgba(56, 129, 114, 0.704);
+    transition: 0.1s linear;
+    transform: scale(1.1);
+}
+
+select{
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+}
+
+section nav ul li select a::after{
+    display: block;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+section nav .main_1 .btn::after{
+    display: block;
+    transition: 0.4s;
+}
+
+section nav .main_1 .btn:hover{
+    cursor: pointer;
+    background-color: rgba(98, 214, 191, 0.704);
+}
+
+.home, button{
+    margin: 20px;
+    color: #fff;
+    background: #000;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-size: 18px;
+}
+
+section nav .main_btn a:hover{
+    cursor: pointer;
+    color: rgba(98, 214, 191, 0.704);
+    transition: .4s linear;
+    transform: scale(1.1);
+}
+
+span{
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 100%;
+    align-items: center;
+}
+
+h1{
+    right: 10%;
+    top: 200px;
+    color: #999;
+    font-size: 100px;
+    font-weight: 50%;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    padding: -10%;
+    padding-left: 30%;
+    position: relative;
+}
+
+header a{
+    margin: 19%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    left: 30%;
+    right: 20%;
+}
+
+section header a{
+    display: inline-flex;
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    position: relative;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+section header a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(98, 214, 191, 0.704);
+}
+
+section header a::after{
+    transition: 0.3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
